@@ -7,6 +7,7 @@
           Die bee;
           Die bun;
           int sum=0;
+          int total=0;
           
           
         void setup()
@@ -53,7 +54,7 @@ sum+=bir.dot;
 sum+=bor.dot;
 sum+=bee.dot;
 sum+=bun.dot;
-
+total=sum;
 
 
 i++;
@@ -64,7 +65,7 @@ i++;
   }
   fill(0);
 textSize(25);
-text("Total Sum:"+sum, 50,530);
+text("Total Sum:"+total, 50,530);
 }
  
   void mousePressed()
@@ -131,4 +132,3 @@ text("Total Sum:"+sum, 50,530);
           rect(myX,myY,50,50,10);
       }
   }
-
